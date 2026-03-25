@@ -1,0 +1,17 @@
+# Mini RAG - Python dependencies
+# Install with: pip install -r requirements.txt
+
+# Core RAG components
+sentence-transformers==2.7.0   # Embedding model (all-MiniLM-L6-v2)
+faiss-cpu==1.8.0               # Vector search index
+
+# Web framework
+flask==3.0.3
+flask-cors==4.0.1              # Allow frontend to call API
+
+# LLM clients
+anthropic>=0.28.0              # Claude API (primary)
+# openai>=1.0.0               # Uncomment if using OpenRouter
+
+# Utilities
+numpy>=1.24.0

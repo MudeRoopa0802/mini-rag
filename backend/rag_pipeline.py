@@ -25,7 +25,7 @@ CHUNK_SIZE      = 400
 CHUNK_OVERLAP   = 80
 
 # ── Your OpenRouter Key ───────────────────────────────────────────────────────
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = "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"
 
 # ── Auto-fallback: tries each model until one works ───────────────────────────
 FREE_MODELS = [

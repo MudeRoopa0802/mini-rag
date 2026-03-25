@@ -15,3 +15,10 @@ anthropic>=0.28.0              # Claude API (primary)
 
 # Utilities
 numpy>=1.24.0
+flask
+flask-cors
+gunicorn
+sentence-transformers
+faiss-cpu
+numpy
+anthropic
